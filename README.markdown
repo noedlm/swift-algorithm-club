@@ -80,8 +80,8 @@ Bad sorting algorithms (don't use these!):
 
 ### Compression
 
-- [Run-Length Encoding (RLE)](Run-Length Encoding)
-- Huffman Encoding
+- [Run-Length Encoding (RLE)](Run-Length Encoding/). Store repeated values as a single byte and a count.
+- [Huffman Coding](Huffman Coding/). Store more common elements using a smaller number of bits.
 
 ### Miscellaneous
 
@@ -96,6 +96,9 @@ Bad sorting algorithms (don't use these!):
 ### Machine learning
 
 - k-Nearest Neighbors
+- Linear Regression
+- Logistic Regression
+- Neural Networks
 - PageRank
 
 ## Data structures
@@ -188,9 +191,10 @@ The following books are available for free online:
 - [Algorithms + Data Structures = Programs](http://www.ethoberon.ethz.ch/WirthPubl/AD.pdf) by Wirth
 - Algorithms and Data Structures: The Basic Toolbox by Mehlhorn and Sanders
 
-Friends of the club:
+Other algorithm repositories:
 
 - [EKAlgorithms](https://github.com/EvgenyKarkan/EKAlgorithms). A great collection of algorithms in Objective-C.
+- [Rosetta Code](http://rosettacode.org). Implementations in pretty much any language you can think of.
 
 ## License
 
